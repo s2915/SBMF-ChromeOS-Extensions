@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Install Chrome Extension</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+    }
+    a.install-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #4285f4;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    a.install-link:hover {
+      background-color: #3367d6;
+    }
+  </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+  <div class="container">
+    <h1>Install Our Chrome Extension</h1>
+    <p>Click the button below to download and install the extension.</p>
+    <p><strong>Note:</strong> You may need to drag the downloaded file into <code>chrome://extensions</code> if installation is blocked.</p>
+    <a class="install-link" href="SBMFCitrixWorkspace.crx">Download Extension</a>
+  </div>
 </body>
-
 </html>
